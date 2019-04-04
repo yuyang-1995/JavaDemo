@@ -30,3 +30,25 @@ false
     Customer类有方法say()，返回String类型，返回他的个人信息。
 
 在测试类Bank中创建银行账户类对象和用户类对象，并设置信息，与显示信息
+
+4//
+1. 编写一个Person类，包括属性（name、age），构造器、方法say(返回自我介绍的字符串）。
+2. 编写一个Student类，继承Person类，增加ID、score属性，以及构造器，并覆盖say方法。
+3. 编写StudentTest类，创建分别Person和Student对象，调用say方法输出自我介绍。
+
+5//
+编写工资系统，实现不同类型员工(多态)的按月发放工资。如果当月出现某个
+Employee对象的生日，则将该雇员的工资增加100元。
+实验说明：
+（1）定义一个Employee类，该类包含：
+private成员变量name,number,birthday，其中birthday 为MyDate类的对象；
+abstract方法earnings()；
+toString()方法输出对象的name,number和birthday。
+（2）MyDate类包含:
+private成员变量year,month,day ；
+toDateString()方法返回日期对应的字符串：xxxx年xx月xx日
+（3）定义SalariedEmployee类继承Employee类，实现按月计算工资的员工处
+理。该类包括：private成员变量monthlySalary；
+实现父类的抽象方法earnings(),该方法返回monthlySalary值；toString()方法输
+出员工类型信息及员工的name，number,birthday
+
