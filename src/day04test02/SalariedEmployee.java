@@ -12,12 +12,22 @@
 //出员工类型信息及员工的name，number,birthday
   public class SalariedEmployee extends Employee {
 	  
-	  private double monthlySalary;
+	
+
+
+// public Employee(String name,String number, MyDate birthday) {
+	private double monthlySalary;
+	  
+	  public SalariedEmployee(String name, String nbumber, double monthlySalary) {
+		 
+		  
+		  
+	}
 
 	@Override
 	void earnings() {
-		
-		System.out.println("月薪=" + monthlySalary);
+		String str = super.toString();
+		System.out.println( str + "  月薪=" + monthlySalary);
 
 	}
 
@@ -26,5 +36,9 @@
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.toString();
+	}
+	
+	
+	public static void main(String[] args) {
 	}
 }

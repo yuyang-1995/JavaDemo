@@ -8,6 +8,7 @@
 
 import java.util.Date;
 
+
 //  编写工资系统，实现不同类型员工(多态)的按月发放工资。如果当月出现某个
 //  Employee对象的生日，则将该雇员的工资增加100元。
 //  实验说明：
@@ -26,6 +27,16 @@ import java.util.Date;
 	  
 	  private String name, number;
 	  private MyDate birthday;
+	  
+	  public Employee() {
+	}
+	  
+	  public Employee(String name,String number, MyDate birthday) {
+		  this.birthday = birthday;
+		  this.name = name;
+		  this.number = number;
+		  
+	}
 	  
 	  abstract void earnings() ;
 	  
