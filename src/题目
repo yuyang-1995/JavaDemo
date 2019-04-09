@@ -52,3 +52,7 @@ toDateString()方法返回日期对应的字符串：xxxx年xx月xx日
 实现父类的抽象方法earnings(),该方法返回monthlySalary值；toString()方法输
 出员工类型信息及员工的name，number,birthday
 
+
+6//
+编写一个继承Thread类的方式实现多线程的程序。该类MyThread有两个属性，一个字符串WhoAmI代表线程名，一个整数delay代表该线程随机要休眠的时间。构造有参的构造器，线程执行时，显示线程名和要休眠时间。
+另外，定义一个测试类TestThread，创建三个线程对象以展示执行情况。

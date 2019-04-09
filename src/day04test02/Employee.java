@@ -34,8 +34,7 @@ import java.util.Date;
 	  public Employee(String name,String number, MyDate birthday) {
 		  this.birthday = birthday;
 		  this.name = name;
-		  this.number = number;
-		  
+		  this.number = number;  
 	}
 	  
 	  abstract void earnings() ;
